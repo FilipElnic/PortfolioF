@@ -1,22 +1,26 @@
-function header() {
+import "bootstrap/dist/css/bootstrap.min.css";
+
+function Header() {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <>
+      <div className="container-fluid p-5 text-white background-color-custom header-container w-9">
+        <div className="col-sm-6 text-centert p-5 position-relative">
+          {/* Add the pink dot and line */}
+          <div className="line-dot mx-5"></div>
+          <h1>
+            Hi, I am <span className="highlight">Filip</span>
+          </h1>
+          <h3>
+            I am a full-stack junior developer,<br></br> I develop websites with
+            3D models.
+          </h3>
+        </div>
+        <div className="col-sm-6">
+          {/* 3D interactive model will be here */}
+        </div>
+      </div>
+    </>
   );
 }
 
-export default header;
+export default Header;
