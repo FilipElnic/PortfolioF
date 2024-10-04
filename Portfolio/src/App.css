@@ -12,8 +12,6 @@ html {
   background-repeat: no-repeat; /* Prevents the image from repeating */
   height: 100vh; /* Adjust this as per your need */
   display: flex;
-  justify-content: center;
-  align-items: center;
   color: white; /* Optional: For better readability over the image */
 }
 .bg-dark-custom {
@@ -43,4 +41,8 @@ html {
 /* Make "Filip" pink */
 .highlight {
   color: #a83e9d;
+}
+
+.cs-height {
+  height: 100%;
 }

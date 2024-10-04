@@ -25,7 +25,7 @@ dist-ssr
 
 # Node modules
 node_modules/
-
+cd
 # Build output
 build/
 dist/

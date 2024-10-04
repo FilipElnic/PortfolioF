@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Spline from "@splinetool/react-spline";
 function Header() {
   return (
     <>
-      <div className="container-fluid p-5 text-white background-color-custom header-container w-9">
-        <div className="col-sm-6 text-centert p-5 position-relative">
+      <div className="container-fluid p-5 text-white background-color-custom  w-9 d-flex flex-column flex-sm-row align-items-center">
+        <div className="col-12 col-sm-6 text-center p-5 position-relative mb-4  align-self-center">
           {/* Add the pink dot and line */}
           <div className="line-dot mx-5"></div>
           <h1>
@@ -15,8 +15,9 @@ function Header() {
             3D models.
           </h3>
         </div>
-        <div className="col-sm-6">
-          {/* 3D interactive model will be here */}
+        <div className="col-12 col-sm-6  d-flex justify-content-center align-items-center  cs-height">
+          {/* 3D interactive model */}
+          <Spline scene="https://prod.spline.design/DUqmY-9Punzpvkyr/scene.splinecode" />
         </div>
       </div>
     </>
