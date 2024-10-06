@@ -46,3 +46,50 @@ html {
 .cs-height {
   height: 100%;
 }
+.custom-height {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .custom-card-size {
+    width: 70%; /* Reduce the width slightly for medium and smaller screens */
+    margin: 0 auto; /* Center the card */
+  }
+}
+.custom-card {
+  background-color: #0b112f;
+  color: white;
+  border-radius: 36px;
+  border: #1ea5d7 solid 3px;
+  height: 300px;
+}
+/* Styling for horizontal lines */
+.horizontal-line {
+  border-top: 2px solid #ccc;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Styling for vertical middle line */
+.vertical-line {
+  border-left: 2px solid #ccc;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+/* Work experience container styling */
+.work-experience {
+  padding: 20px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Make sure text and layout look good on smaller screens */
+@media (max-width: 768px) {
+  .work-experience .vertical-line {
+    display: none;
+  }
+}

@@ -7,7 +7,7 @@ function Header() {
         <div className="col-12 col-sm-6 text-center p-5 position-relative mb-4  align-self-center">
           {/* Add the pink dot and line */}
           <div className="line-dot mx-5"></div>
-          <h1>
+          <h1 className="display-4">
             Hi, I am <span className="highlight">Filip</span>
           </h1>
           <h3>
