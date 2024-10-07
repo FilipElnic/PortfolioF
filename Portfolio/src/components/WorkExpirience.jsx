@@ -8,10 +8,9 @@ function WorkExperience() {
   return (
     <>
       <div className="container-fluid p-5 text-white custom-height2 bg-dark-custom work-experience">
-        <div className="horizontal-line"></div>
         {/* Top Line */}
         <div className="horizontal-line"></div>
-        <h1 className="text-center display-1 p-5">Work Experience</h1>
+        <h1 className="text-center display-1 p-3">Work Experience</h1>
 
         <WorkExpirienceProps1
           company="SEOBROTHERS"
@@ -30,7 +29,7 @@ function WorkExperience() {
         />
 
         {/* Bottom Line */}
-        <div className="horizontal-line"></div>
+        <div className="horizontal-line custom-margin"></div>
       </div>
     </>
   );

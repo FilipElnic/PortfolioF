@@ -66,7 +66,7 @@ html {
 /* Styling for horizontal lines */
 .horizontal-line {
   border-top: 2px solid #ccc;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -92,4 +92,19 @@ html {
   .work-experience .vertical-line {
     display: none;
   }
+}
+
+@media (min-width: 1768px) {
+  .cards-height {
+    height: 100vh;
+  }
+}
+.work-experience-font {
+  font-size: 1.5rem;
+}
+.custom-margin {
+  margin-top: 20vh;
+}
+.custom-margin-left {
+  margin-left: 5%;
 }

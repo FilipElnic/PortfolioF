@@ -13,8 +13,8 @@ function WorkExpirienceProps1({
   return (
     <div className="row mt-5 position-relative">
       {/* Left Column (Dates) */}
-      <div className="col-md-5 text-start">
-        <p className="display-6 m-5">{date}</p>
+      <div className="col-md-5 text-end">
+        <p className="m-5 work-experience-font">{date}</p>
       </div>
 
       {/* Middle Line */}
@@ -23,12 +23,12 @@ function WorkExpirienceProps1({
       </div>
 
       {/* Right Column (Details) */}
-      <div className="col-md-5 text-start">
-        <h2 className="display-3 m-5">{company}</h2>
+      <div className="col-md-5 text-start custom-margin-left">
+        <h2 className="display-6 m-5">{company}</h2>
         <ul>
-          <li className="display-6 m-2">{tag1}</li>
-          <li className="display-6 m-2">{tag2}</li>
-          <li className="display-6 m-2">{address}</li>
+          <li className="m-2 work-experience-font">{tag1}</li>
+          <li className="m-2 work-experience-font">{tag2}</li>
+          <li className="m-2 work-experience-font">{address}</li>
         </ul>
       </div>
     </div>

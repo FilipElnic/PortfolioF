@@ -1,9 +1,10 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Introduction from "./components/Introduction";
 import WorkExperience from "./components/WorkExpirience";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Introduction />
       <WorkExperience />
+      <Technologies />
     </div>
   );
 }
