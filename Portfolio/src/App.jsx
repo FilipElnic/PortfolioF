@@ -2,7 +2,7 @@ import "./App.css";
 
 console.log("App component loaded");
 
-import Header from "./components/Header";
+import Header from "./Header.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Introduction from "./components/Introduction.jsx";
 import WorkExperience from "./components/WorkExpirience.jsx";
