@@ -1,11 +1,16 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import ImgSlider from "./ImgSlider";
 import "../App.css";
-import Spline from "@splinetool/react-spline";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Technologies() {
   return (
-    <div>
-      <Spline scene="https://prod.spline.design/r62Xwh3JW3B-pdlV/scene.splinecode" />
+    <div className="container-fluid bg-dark-custom ">
+      <div className="container text-center ">
+        <div className="display-2  text-white ">Technologies</div>
+      </div>
+      <div className="custom-margin">
+        <ImgSlider />
+      </div>
     </div>
   );
 }
