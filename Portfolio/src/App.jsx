@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
-import Navbar from "./components/Navbar";
-import Introduction from "./components/Introduction";
-import WorkExperience from "./components/WorkExpirience";
+import Navbar from "./components/Navbar.jsx";
+import Introduction from "./components/Introduction.jsx";
+import WorkExperience from "./components/WorkExpirience.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Technologies from "./components/Technologies.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
