@@ -1,9 +1,25 @@
 {
+  "name": "portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",
     "prop-types": "^15.8.1",
     "react-bootstrap": "^2.10.5"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.40.0"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
