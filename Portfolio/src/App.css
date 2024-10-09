@@ -62,7 +62,6 @@ html {
   color: white;
   border-radius: 36px;
   border: #1ea5d7 solid 3px;
-  height: 300px;
 }
 /* Styling for horizontal lines */
 .horizontal-line {
@@ -178,4 +177,20 @@ html {
   height: 100vh; /* Adjust this as per your need */
   display: flex;
   color: white; /* Optional: For better readability over the image */
+}
+.custom-picture {
+  width: 250px;
+  height: 250px;
+}
+
+.img-container {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images keep their aspect ratio and don't stretch */
 }
