@@ -14,6 +14,7 @@ function Cards() {
             <Card
               img={img1}
               title="Weather Application"
+              link="https://pocasko-2024.vercel.app/"
               text="This project was for practising API. You enter a city name and you recieve current temperature, humidity and wind speed."
             />
           </div>
@@ -21,6 +22,7 @@ function Cards() {
             <Card
               img={img2}
               title="Infinity animation"
+              link="https://future-animations-k9ym.vercel.app/"
               text="This project was for practising css animations. It is infinity image slider, you can see other example on this page aswell. "
             />
           </div>
@@ -28,6 +30,7 @@ function Cards() {
             <Card
               img={img3}
               title="Can animation only CSS"
+              link="https://can-animation.vercel.app/"
               text="This project was for practising css animation. It is about hovering over a can and it will change it's design."
             />
           </div>
@@ -35,6 +38,7 @@ function Cards() {
             <Card
               img={img4}
               title="NaucSeTelesa"
+              link="#"
               text="This project is my school year project. It is for student who want to learn mathematical bodies. It will be in czech language."
             />
           </div>

@@ -23,7 +23,7 @@ function WorkExpirienceProps1({
       </div>
 
       {/* Right Column (Details) */}
-      <div className="col-md-5 text-start custom-margin-left">
+      <div className="col-md-5 text-start custom-margin-left shadow-card bg-expirienc">
         <h2 className="display-6 m-5">{company}</h2>
         <ul>
           <li className="m-2 work-experience-font">{tag1}</li>

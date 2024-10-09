@@ -1,9 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import PropTypes from "prop-types";
 
 function Card(props) {
   return (
     <>
-      <div className="custom-card-size custom-card mt-6">
+      <div className="custom-card-size custom-card mt-6 shadow-card">
         <div className="img-container">
           <img
             src={props.img}
@@ -17,7 +18,7 @@ function Card(props) {
           </h5>
           <p className="card-text p-4">{props.text}</p>
           <a
-            href="#"
+            href={props.link}
             className="btn btn-primary d-flex justify-content-center m-3 rounded-3"
           >
             Explore Project
