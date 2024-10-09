@@ -29,10 +29,10 @@ function Contact() {
   };
 
   return (
-    <div className="container-fluid p-5 text-white background-color-custom2  w-5 d-flex flex-column flex-sm-row ">
+    <div className="container-fluid p-5 text-white background-color-custom2  w-5 d-flex flex-column flex-sm-row">
       <div className="col-12 col-sm-6 text-center position-relative mb-4  align-self-center">
         {/* Add the pink dot and line */}
-        <div className="contact custom-margin-contact ">
+        <div className="contact custom-margin-contact contact2 ">
           <h1 className="mb-5 mt-5 display-3">Contact</h1>
           <form onSubmit={sendEmail}>
             <div className="m-3 mt-5">
