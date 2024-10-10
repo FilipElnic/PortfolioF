@@ -5,7 +5,7 @@ import Cards from "./Cards";
 function Projects() {
   return (
     <div className="container-fluid p-5 text-white cards-height bg-dark-custom">
-      <div className="container custom-margin">
+      <div className="container custom-margin " id="Projects">
         <div className="col-m-8">
           <p>My work</p>
           <h1 className="display-3 mt-2">Projects.</h1>

@@ -7,7 +7,10 @@ function WorkExperience() {
   console.log("Rendering WorkExperience");
   return (
     <>
-      <div className="container-fluid p-5 text-white custom-height2 bg-dark-custom work-experience">
+      <div
+        className="container-fluid p-5 text-white custom-height2 bg-dark-custom work-experience"
+        id="Experience"
+      >
         {/* Top Line */}
         <div className="horizontal-line"></div>
         <h1 className="text-center display-1 p-3">Work Experience</h1>
