@@ -30,7 +30,7 @@ function Cards() {
             <Card
               img={img3}
               title="Can animation only CSS"
-              link="https://can-animation.vercel.app/"
+              link="https://landing-page-animations.vercel.app/"
               text="This project was for practising css animation. It is about hovering over a can and it will change it's design."
             />
           </div>

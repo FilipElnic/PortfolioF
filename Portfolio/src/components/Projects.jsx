@@ -4,7 +4,7 @@ import Cards from "./Cards";
 
 function Projects() {
   return (
-    <div className="container-fluid p-5 text-white cards-height bg-dark-custom ">
+    <div className="container-fluid p-5 text-white cards-height bg-dark-custom">
       <div className="container custom-margin">
         <div className="col-m-8">
           <p>My work</p>

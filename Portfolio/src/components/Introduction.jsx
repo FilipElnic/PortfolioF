@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Cards from "./Cards";
+import Social from "./Social";
 import "../App.css";
 
 function Introduction() {
@@ -20,7 +20,7 @@ function Introduction() {
         <div className="col-m-4"></div>
       </div>
       <div className="container custom-margin">
-        <Cards />
+        <Social />
       </div>
     </div>
   );

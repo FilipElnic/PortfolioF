@@ -21,7 +21,7 @@ html {
 /* Style the pink dot and line */
 .line-dot {
   position: absolute;
-  left: -40%; /* Adjust as needed */
+  left: -40px; /* Adjust as needed */
   top: 20px;
   height: 200px;
   width: 2px;
@@ -211,4 +211,9 @@ html {
   .contact2 {
     margin-top: 200px;
   }
+}
+/* External CSS file */
+.custom-card a {
+  color: inherit; /* This will inherit the text color from the parent element */
+  text-decoration: none; /* This removes the underline */
 }
