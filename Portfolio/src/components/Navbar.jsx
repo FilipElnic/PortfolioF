@@ -1,5 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap CSS
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Bootstrap JS + Popper.js
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../App.css";
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <div className="container-fluid">
         {/* Brand */}
         <a className="navbar-brand" href="#">
-          MyWebsite
+          <span className="highlight">Filip Elznic | Portfolio</span>
         </a>
 
         {/* Toggler/collapsible Button for small screens */}
