@@ -6,7 +6,7 @@ function Card(props) {
     <>
       <div className="custom-card-size custom-card mt-6 shadow-card">
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <div className="img-container">
+          <div className="img-container ">
             <img
               src={props.img}
               className="card-img-top rounded-5 p-1 mb-2"
