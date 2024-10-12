@@ -23,7 +23,7 @@ function WorkExperience() {
           date="Nov 2023 - Dec 2023"
         />
         <WorkExpirienceProps2
-          company="University of Jana Evangelisty Purkyně "
+          company="University of Jan Evangelista Purkyně"
           tag1="Expirience from school"
           tag2="Working and showcasing school servers"
           tag3="Learning about Docker, working with Github, Linux and Internet history"
