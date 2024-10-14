@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Technologies from "./components/Technologies.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Technologies />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
