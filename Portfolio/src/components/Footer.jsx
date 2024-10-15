@@ -8,7 +8,7 @@ function Footer() {
       style={{
         backgroundColor: "#050816",
         borderTop: "solid 2px white",
-        position: "fixed",
+
         bottom: "0",
         width: "100%",
       }}

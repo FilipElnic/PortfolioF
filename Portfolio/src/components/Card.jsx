@@ -1,10 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import { motion } from "framer-motion";
 
 function Card(props) {
   return (
     <>
-      <div className="custom-card-size custom-card mt-6 shadow-card">
+      <motion.div
+        className="custom-card-size custom-card mt-6 shadow-card"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+      >
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           <div className="img-container ">
             <img
@@ -20,7 +25,7 @@ function Card(props) {
             <p className="card-text p-4">{props.text}</p>
           </div>
         </a>
-      </div>
+      </motion.div>
     </>
   );
 }
