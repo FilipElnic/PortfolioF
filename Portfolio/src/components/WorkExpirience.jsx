@@ -2,9 +2,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css"; // Import your custom styles
 import WorkExpirienceProps1 from "./WorkExpirienceProps1";
 import WorkExpirienceProps2 from "./WorkExpirienceProps2";
+import { motion } from "framer-motion";
 
 function WorkExperience() {
-  console.log("Rendering WorkExperience");
+  const Variants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, delay: 0.3 },
+    },
+  };
+
   return (
     <>
       <div
@@ -13,7 +22,14 @@ function WorkExperience() {
       >
         {/* Top Line */}
         <div className="horizontal-line"></div>
-        <h1 className="text-center display-1 p-3">Work Experience</h1>
+        <motion.h1
+          className="text-center display-1 p-3"
+          initial="hidden"
+          whileInView="visible"
+          variants={Variants}
+        >
+          Work Experience
+        </motion.h1>
 
         <WorkExpirienceProps1
           company="SEOBROTHERS"

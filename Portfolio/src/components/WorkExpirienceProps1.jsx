@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../App.css"; // Import your custom styles
+import "../App.css";
+import { motion } from "framer-motion";
 
-// Use default values directly in the function parameters
 function WorkExpirienceProps1({
   company = "Default Company",
   tag1 = "Default Tag 1",
@@ -10,12 +10,34 @@ function WorkExpirienceProps1({
   address = "Default Address",
   date = "Default Date",
 }) {
+  const Variants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, delay: 0.4 },
+    },
+  };
+  const Variants2 = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, delay: 1 },
+    },
+  };
+
   return (
     <div className="row mt-5 position-relative">
       {/* Left Column (Dates) */}
-      <div className="col-md-5 text-end">
+      <motion.div
+        className="col-md-5 text-end"
+        initial="hidden"
+        whileInView="visible"
+        variants={Variants}
+      >
         <p className="m-5 work-experience-font">{date}</p>
-      </div>
+      </motion.div>
 
       {/* Middle Line */}
       <div className="col-md-1 d-none d-md-block">
@@ -23,14 +45,26 @@ function WorkExpirienceProps1({
       </div>
 
       {/* Right Column (Details) */}
-      <div className="col-md-5 text-start custom-margin-left shadow-card bg-expirienc">
-        <h2 className="display-6 m-5">{company}</h2>
-        <ul>
+      <motion.div
+        className="col-md-5 text-start custom-margin-left shadow-card bg-expirienc"
+        initial="hidden"
+        whileInView="visible"
+        variants={Variants}
+      >
+        <motion.h2
+          className="display-6 m-5"
+          initial="hidden"
+          whileInView="visible"
+          variants={Variants2}
+        >
+          {company}
+        </motion.h2>
+        <motion.ul initial="hidden" whileInView="visible" variants={Variants2}>
           <li className="m-2 work-experience-font">{tag1}</li>
           <li className="m-2 work-experience-font">{tag2}</li>
           <li className="m-2 work-experience-font">{address}</li>
-        </ul>
-      </div>
+        </motion.ul>
+      </motion.div>
     </div>
   );
 }

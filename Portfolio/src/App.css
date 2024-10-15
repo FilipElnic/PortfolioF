@@ -217,3 +217,20 @@ html {
   color: inherit; /* This will inherit the text color from the parent element */
   text-decoration: none; /* This removes the underline */
 }
+
+.spline-container {
+  min-height: 400px; /* Ensures model doesn't get too small */
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .spline-container {
+    min-height: 300px; /* Adjust for mobile */
+  }
+}
+@media (min-width: 575px) {
+  .smallVisible {
+    display: none;
+  }
+}

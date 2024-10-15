@@ -7,7 +7,6 @@ function Footer() {
       className="container-fluid"
       style={{
         backgroundColor: "#050816",
-        borderTop: "solid 2px white",
 
         bottom: "0",
         width: "100%",

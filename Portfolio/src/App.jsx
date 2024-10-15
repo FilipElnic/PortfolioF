@@ -22,7 +22,6 @@ function App() {
       <Technologies />
       <Projects />
       <Contact />
-      <Footer />
     </div>
   );
 }

@@ -8,7 +8,7 @@ function Header() {
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { duration: 0.5, delay: 0.5 },
+      transition: { duration: 0.5, delay: 1 },
     },
   };
 
@@ -27,8 +27,8 @@ function Header() {
             Hi, I am <span className="highlight">Filip</span>
           </motion.h1>
           <motion.h3 initial="hidden" whileInView="visible" variants={Variants}>
-            I am a full-stack junior developer,<br></br> I develop websites with
-            3D models.
+            I am a junior full-stack developer,<br></br>currently studing in
+            Czech Republic🛫
           </motion.h3>
         </div>
         <div className="col-12 col-sm-6  d-flex justify-content-center align-items-center  cs-height">
